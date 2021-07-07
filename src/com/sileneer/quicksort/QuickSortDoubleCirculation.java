@@ -20,7 +20,7 @@ public class QuickSortDoubleCirculation {
 	 * @param startIndex: the index of the starting element
 	 * @param endIndex:   the index of the ending element
 	 */
-	public void quickSort(int[] arr, int startIndex, int endIndex) {
+	public static void quickSort(int[] arr, int startIndex, int endIndex) {
 		// condition of the end of the recursion: when startIndex is larger than or
 		// equal to endIndex
 		if (startIndex >= endIndex) {
@@ -45,7 +45,7 @@ public class QuickSortDoubleCirculation {
 	 * @param endIndex:   the index of the ending element
 	 * @return left
 	 */
-	public int partition(int[] arr, int startIndex, int endIndex) {
+	public static int partition(int[] arr, int startIndex, int endIndex) {
 		// use the 1st element as the pivot
 		int pivot = arr[startIndex];
 		int left = startIndex;

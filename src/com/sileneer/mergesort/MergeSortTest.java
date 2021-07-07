@@ -1,8 +1,5 @@
 package com.sileneer.mergesort;
 
-import com.sileneer.quicksort.QuickSortDoubleCirculation;
-import com.sileneer.quicksort.QuickSortSingleCirculation;
-
 import java.util.Arrays;
 
 public class MergeSortTest {

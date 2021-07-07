@@ -8,7 +8,7 @@ package com.sileneer.quicksort;
  * @date 24 Nov 2020 4:51:12 pm
  *
  */
-public class QuickSortSingleCirculation {
+public class QuickSortSingleLoop {
 
 	/**
 	 * 

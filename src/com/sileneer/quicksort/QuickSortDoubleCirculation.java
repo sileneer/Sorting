@@ -4,7 +4,7 @@ package com.sileneer.quicksort;
  * 
  * @Description Quick sort by using double circulation.
  * @author Liu ZH, Email: lzh7522@foxmail.com
- * @version
+ * @version 1.0
  * @date 24 Nov 2020 4:39:53 pm
  *
  */
@@ -20,7 +20,7 @@ public class QuickSortDoubleCirculation {
 	 * @param startIndex: the index of the starting element
 	 * @param endIndex:   the index of the ending element
 	 */
-	public static void quickSort(int[] arr, int startIndex, int endIndex) {
+	protected static void quickSort(int[] arr, int startIndex, int endIndex) {
 		// condition of the end of the recursion: when startIndex is larger than or
 		// equal to endIndex
 		if (startIndex >= endIndex) {

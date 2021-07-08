@@ -23,6 +23,7 @@ public class QuickSortSingleLoop {
         if (startIndex >= endIndex) {
             return;
         }
+
         // get the index of the pivot
         int pivotIndex = partition(arr, startIndex, endIndex);
         // according to pivot, divide the array into two part and sort them respectively
